@@ -1,0 +1,127 @@
+@media (min-width: 768px) and (max-width: 990px) {
+   
+   /* Header */
+    .sub-name {
+        display: none;
+    }
+
+    /* Lý lịch */
+    .section-background {
+        display: flex;
+        justify-content: space-around;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-left:0%;
+        padding-right: 0%;
+        justify-content: flex-start;
+    }
+    .background {
+    width: auto;
+    }
+
+    /* Dự án */
+    .chungchi {
+        display: block;
+    }
+
+    .cert {
+        padding-left: 70px;
+    }
+    .cert-top {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 30px;
+        border-bottom: 2px solid rgb(201, 111, 111);
+        line-height: 1.6;
+    }
+    .cert3 {
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        line-height: 1.6;
+    }
+
+
+    /* Chứng chỉ-Dự án */
+
+}
+
+@media (max-width: 768px) {
+    #header {
+        display: block;
+    }
+    #header .nav {
+        display: block;
+    }
+    .sub-nav {
+        width: auto;
+        border: none;
+        text-align: left;
+        padding-left: 20px;
+    }
+    .sub-name {
+        display: none;
+    }
+
+
+    /* Thông tin */
+    .private {
+        display: block;
+    }
+    .private .info-section {
+        width: auto;
+        padding: 50px 50px;
+    }
+
+    /* Lý lịch */
+    .row {
+        display: block;
+        margin-left: -30px;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .background {
+        width: auto;
+        margin-top: 20px;
+    }
+    .row2 {
+        margin-top: -50px;
+    }
+
+    /* Chứng chỉ-giải thưởng */
+    .cert {
+        display: block;
+        padding-left: 0%;
+    }
+    .cert-top {
+        display: block;
+    }
+    .chungchi {
+        display: block;
+        padding: 30px;
+    }
+    .desc-chungchi {
+        padding-left: 0%;
+    }
+    .cert1 {
+        border-right: none;
+        border-bottom: 1px solid rgb(201, 111, 111);
+    }
+    .cert3 {
+        display: block;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    /* Dự án */
+    .project-content {
+        display: block;
+    }
+    .du-an {
+        width: auto;
+        margin-top: 30px;
+    }
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital CV</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="./css/font.css">
 </head>
 <body>
@@ -22,22 +23,22 @@
     <div id="header">
         <ul class="nav">
             <li class="sub-nav">
-                <a href=""><i class="icon-user"></i>Thông tin</a>
+                <a href="#2"><i class="icon-user"></i>Thông tin</a>
             </li>
             <li class="sub-nav">
-                <a href=""><i class="icon-doc-text-inv"></i>Lý lịch</a>
+                <a href="#3"><i class="icon-doc-text-inv"></i>Lý lịch</a>
             </li>
             <li class="sub-name">
-                <a href="">
+                <a href="#banner">
                     <h2>Nguyễn Văn A</h2>
                     <p>Full Stack Developer</p>
                 </a>
             </li>
             <li class="sub-nav">
-                <a href=""><i class="icon-mail-alt"></i>Chứng chỉ</a>
+                <a href="#4"><i class="icon-mail-alt"></i>Chứng chỉ</a>
             </li>
             <li class="sub-nav">
-                <a href=""><i class="icon-star-1"></i>Dự án</a>
+                <a href="#5"><i class="icon-star-1"></i>Dự án</a>
             </li>
         </ul>
     </div>
@@ -45,7 +46,7 @@
     <!-- Content -->
     <div id="content">
         <!-- Thông tin -->
-        <div class="private">
+        <div id="2" class="private">
             <div class="info-section job">
                 <h2 class="heading-info">Mục tiêu nghề nghiệp</h2>
                 <p class="desc-job">Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh Nghiệp của FUNIX. Em mong muốn mình sẽ được làm việc với vị trí Fullstack Developer, có thể vận dụng những kiến thức đã được trau dồi và không ngừng học hỏi phát triển bản thân, cũng như hoàn thành tốt nhất công việc được giao.</p>
@@ -68,7 +69,7 @@
         </div>
 
         <!-- Lý lịch -->
-        <div class="section-background">
+        <div id="3" class="section-background">
             <div class="row">
                 <div class="background exp">
                     <div class="bgr">
@@ -140,7 +141,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row row2">
                 <div class="background work">
                     <div class="bgr">
                         <h2>Hoạt động</h2>
@@ -199,19 +200,19 @@
                         <div class="item">
                             <div class="like-item">
                                 <td><i class="ic-megaphone"></i></td>
-                                <p>Chơi game</p>
-                            </div>
-                            <div class="like-item">
-                                <td><i class="ic-strategy"></i></td>
                                 <p>Âm nhạc</p>
                             </div>
                             <div class="like-item">
+                                <td><i class="ic-strategy"></i></td>
+                                <p>Chơi game</p>
+                            </div>
+                            <div class="like-item">
                                 <td><i class="ic-hotairballoon"></i></td>
-                                <p>Giải trí</p>
+                                <p>Du lịch</p>
                             </div>
                             <div class="like-item">
                                 <td><i class="ic-basket"></i></td>
-                                <p>Du lịch</p>
+                                <p>Nấu ăn</p>
                             </div>
                         </div>
                     </div>
@@ -220,7 +221,7 @@
         </div>
 
         <!-- Chứng chỉ-giải thưởng -->
-        <div class="certificate">
+        <div id="4" class="certificate">
             <div class="heading-content">
                 <h2>Chứng chỉ - Giải thưởng</h2>
             </div>
@@ -231,7 +232,7 @@
                             <img src="./images/Cert_DBI.png" alt="">
                         </div>
                         <div class="desc-chungchi">
-                            <h4>Chứng chỉ lập trình web - Funix</h4>
+                            <h4>CHỨNG CHỈ LẬP TRÌNH WEB - FUNIX</h4>
                             <p>-Chứng chỉ thuộc chương trình CCDN</p>
                             <p>-GPA: 8.6</p>
 
@@ -239,24 +240,24 @@
                     </div>
                     <div class="cert2 chungchi">
                         <div class="img-cert">
-                            <img src="./images/Cert_DBI.png" alt="">
+                            <img src="./images/Cert_PRF.png" alt="">
                         </div>
                         <div class="desc-chungchi">
-                            <h4>Chứng chỉ lập trình web - Funix</h4>
+                            <h4>CHỨNG CHỈ LẬP TRÌNH JAVASCRIPT - FUNIX</h4>
                             <p>-Chứng chỉ thuộc chương trình CCDN</p>
-                            <p>-GPA: 8.6</p>
+                            <p>-GPA: 8.9</p>
 
                         </div>
                     </div>
                 </div>
                 <div class="cert3">
                     <div class="img-cert">
-                        <img src="./images/Cert_DBI.png" alt="">
+                        <img src="./images/Cert_WEB.png" alt="">
                     </div>
                     <div class="desc-chungchi">
-                        <h4>Chứng chỉ lập trình web - Funix</h4>
+                        <h4>CHỨNG CHỈ THIẾT KẾ DATABASE - FUNIX</h4>
                         <p>-Chứng chỉ thuộc chương trình CCDN</p>
-                        <p>-GPA: 8.6</p>
+                        <p>-GPA: 8.0</p>
 
                     </div>
                 </div>
@@ -264,9 +265,9 @@
         </div>
 
         <!-- Dự án -->
-        <div class="project">
+        <div id="5" class="project">
             <div class="heading-content">
-                <h2>Chứng chỉ - Giải thưởng</h2>
+                <h2>Dự án</h2>
             </div>
             <div class="project-content">
                 <div class="du-an">
